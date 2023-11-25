@@ -20,7 +20,7 @@ int main()
     
     cout << "Vehicle: " << endl;
     cout << "Enter the manufacturer: ";
-    cin >> tempManuFactName;
+    getline(cin,tempManuFactName);
     
     cout << "Enter the year built: ";
     cin >> tempYearBuilt;
@@ -28,11 +28,12 @@ int main()
     vehicleTemp.setYearBuilt(tempYearBuilt);
     vehicleTemp.setManfactName(tempManuFactName);
     vehicleTemp.displayVehicleInfo();
+    cout << endl;
     
-    
+    cin.ignore();
     cout << "Car: " << endl;
     cout << "Enter the manufacturer: ";
-    cin >> tempManuFactName;
+    getline(cin,tempManuFactName);
     
     cout << "Enter the year built: ";
     cin >> tempYearBuilt;
@@ -43,12 +44,13 @@ int main()
     carTemp.setYearBuilt(tempYearBuilt);
     carTemp.setManfactName(tempManuFactName);
     carTemp.setNumberOfDoors(tempDoorNumber);
-    carTemp.displayVehicleInfo();
+    carTemp.displayCarInfo();
+    cout << endl;
     
-    
+    cin.ignore();
     cout << "Truck: " << endl;
     cout << "Enter the manufacturer: ";
-    cin >> tempManuFactName;
+    getline(cin,tempManuFactName);
     
     cout << "Enter the year built: ";
     cin >> tempYearBuilt;
@@ -59,7 +61,8 @@ int main()
     truckTemp.setYearBuilt(tempYearBuilt);
     truckTemp.setManfactName(tempManuFactName);
     truckTemp.setTowingCapacity(tempTowingCap);
-    truckTemp.displayVehicleInfo();
+    truckTemp.displayTruckInfo();
+    cout << endl;
     
     return 0;
 }
