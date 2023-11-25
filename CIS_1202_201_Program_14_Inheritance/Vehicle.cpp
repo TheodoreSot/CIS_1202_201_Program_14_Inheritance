@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 
 #include "Vehicle.h"
 #include <iostream>
@@ -17,7 +17,7 @@ int Vehicle::getYearBuilt() const
     return yearbuilt;
 }
 
-void Vehicle::displayInfo() const
+void Vehicle::displayVehicleInfo() const
 {
     cout << "Vehicle Information: " << endl;
     cout << "Manufacturer: " << ManufactName << endl;
@@ -56,5 +56,5 @@ Vehicle::Vehicle()
 
 Vehicle::~Vehicle()
 {
-    cout << "Destructor ran" << endl;
+    cout << "Vehicle Destructor ran" << endl;
 }

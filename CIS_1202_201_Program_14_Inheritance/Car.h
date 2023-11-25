@@ -9,8 +9,9 @@ private:
     int numberOfDoors;
     
 public:
-    int getNumberOfDoors();
-    void setNumberOfDoors();
+    int getNumberOfDoors() const;
+    void setNumberOfDoors(int);
+    void displayCarInfo();
     
     Car();
     ~Car();

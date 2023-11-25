@@ -15,7 +15,7 @@ public:
     int getYearBuilt() const;
     void setManfactName(string);
     void setYearBuilt(int);
-    void displayInfo() const;
+    void displayVehicleInfo() const;
     
     Vehicle();
     ~Vehicle();
