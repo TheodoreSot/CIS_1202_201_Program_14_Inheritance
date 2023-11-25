@@ -2,8 +2,9 @@
 #define Vehicle_h
 
 #include <string>
+using namespace std;
 
-Class Vehicle
+class Vehicle
 {
 private:
     string ManufactName;
@@ -12,9 +13,9 @@ private:
 public:
     string getManfactName() const;
     int getYearBuilt() const;
-    void setManfactName();
-    void setYearBuilt();
-    void displayInfo();
+    void setManfactName(string);
+    void setYearBuilt(int);
+    void displayInfo() const;
     
     Vehicle();
     ~Vehicle();
