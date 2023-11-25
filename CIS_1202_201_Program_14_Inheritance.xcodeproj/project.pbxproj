@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		ACB1FE012B1178740073F4C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FE002B1178740073F4C0 /* main.cpp */; };
 		ACB1FE092B117A520073F4C0 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FE082B117A520073F4C0 /* Vehicle.cpp */; };
+		ACB1FE0D2B11A7FA0073F4C0 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FE0B2B11A7FA0073F4C0 /* Car.cpp */; };
+		ACB1FE112B11A82A0073F4C0 /* Truck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FE0F2B11A82A0073F4C0 /* Truck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		ACB1FE002B1178740073F4C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ACB1FE072B117A180073F4C0 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
 		ACB1FE082B117A520073F4C0 /* Vehicle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
+		ACB1FE0A2B11A7D80073F4C0 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		ACB1FE0B2B11A7FA0073F4C0 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		ACB1FE0E2B11A8160073F4C0 /* Truck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
+		ACB1FE0F2B11A82A0073F4C0 /* Truck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Truck.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				ACB1FE002B1178740073F4C0 /* main.cpp */,
+				ACB1FE0A2B11A7D80073F4C0 /* Car.h */,
+				ACB1FE0B2B11A7FA0073F4C0 /* Car.cpp */,
+				ACB1FE0E2B11A8160073F4C0 /* Truck.h */,
+				ACB1FE0F2B11A82A0073F4C0 /* Truck.cpp */,
 				ACB1FE072B117A180073F4C0 /* Vehicle.h */,
 				ACB1FE082B117A520073F4C0 /* Vehicle.cpp */,
 			);
@@ -124,8 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB1FE0D2B11A7FA0073F4C0 /* Car.cpp in Sources */,
 				ACB1FE092B117A520073F4C0 /* Vehicle.cpp in Sources */,
 				ACB1FE012B1178740073F4C0 /* main.cpp in Sources */,
+				ACB1FE112B11A82A0073F4C0 /* Truck.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
