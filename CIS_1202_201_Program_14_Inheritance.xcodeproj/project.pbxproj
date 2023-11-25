@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ACB1FE012B1178740073F4C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FE002B1178740073F4C0 /* main.cpp */; };
+		ACB1FE092B117A520073F4C0 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FE082B117A520073F4C0 /* Vehicle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		ACB1FDFD2B1178740073F4C0 /* CIS_1202_201_Program_14_Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CIS_1202_201_Program_14_Inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB1FE002B1178740073F4C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ACB1FE072B117A180073F4C0 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		ACB1FE082B117A520073F4C0 /* Vehicle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				ACB1FE002B1178740073F4C0 /* main.cpp */,
+				ACB1FE072B117A180073F4C0 /* Vehicle.h */,
+				ACB1FE082B117A520073F4C0 /* Vehicle.cpp */,
 			);
 			path = CIS_1202_201_Program_14_Inheritance;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB1FE092B117A520073F4C0 /* Vehicle.cpp in Sources */,
 				ACB1FE012B1178740073F4C0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
