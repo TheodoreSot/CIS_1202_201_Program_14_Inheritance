@@ -17,10 +17,10 @@ int main()
     Vehicle vehicleTemp;
     Car carTemp;
     Truck truckTemp;
-    string tempManuFactName;
-    int tempYearBuilt;
-    int tempDoorNumber;
-    double tempTowingCap;
+    string tempManuFactName;        //used for vehicle, car and truck
+    int tempYearBuilt;              //used for vehicle,car and truck
+    int tempDoorNumber;             //used for car
+    double tempTowingCap;           //used for truck
     
     //gets vehicle info
     cout << "Vehicle: " << endl;
