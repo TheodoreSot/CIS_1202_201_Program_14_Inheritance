@@ -26,11 +26,13 @@ void Vehicle::displayVehicleInfo() const
 
 void Vehicle::setYearBuilt(int year)
 {
+    //checks if year is positive
     if(year>0)
     {
         yearbuilt=year;
     }
     
+    //makes sure year is positive before assignment
     else if(year<0)
     {
         do

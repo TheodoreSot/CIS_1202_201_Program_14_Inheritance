@@ -13,12 +13,12 @@ double Truck::getTowingCapacity() const
 
 void Truck::setTowingCapacity(double towingAblility)
 {
-    if(towingAblility>=0)
+    if(towingAblility>=0)       //makes sure towing capacity is positive
     {
         towingCapacity=towingAblility;
     }
     
-    else if(towingAblility<0)
+    else if(towingAblility<0)   //makes sure towing capacity is at least 0 or more before assignement
     {
         do
         {

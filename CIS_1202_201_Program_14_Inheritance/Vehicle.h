@@ -6,7 +6,7 @@ using namespace std;
 
 class Vehicle
 {
-private:
+protected:
     string ManufactName;
     int yearbuilt;
     

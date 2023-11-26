@@ -13,11 +13,13 @@ int Car::getNumberOfDoors() const
 
 void Car::setNumberOfDoors(int doorNumber)
 {
-    if(doorNumber>0)
+    //checks if number of doors is positive.
+    if(doorNumber>=0)
     {
         numberOfDoors=doorNumber;
     }
     
+    //makes sure the number of doors is positive
     else if(doorNumber<1)
     {
         do
@@ -41,6 +43,6 @@ Car::~Car()
 
 void Car::displayCarInfo()
 {
-    displayVehicleInfo();
+    displayVehicleInfo();       //calls vehicle display info
     cout << "Doors: " << numberOfDoors << endl;
 }
