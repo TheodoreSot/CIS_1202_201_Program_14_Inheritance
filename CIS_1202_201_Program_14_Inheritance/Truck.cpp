@@ -39,8 +39,8 @@ Truck::~Truck()
     cout << "Truck Destructor Ran" << endl;
 }
 
-void Truck:: displayTruckInfo()
+void Truck:: displayInfo()
 {
-    displayVehicleInfo();
+    Vehicle::displayInfo();
     cout << "Towing capacity: " << towingCapacity << endl;
 }

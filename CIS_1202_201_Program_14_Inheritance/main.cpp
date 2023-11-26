@@ -33,7 +33,7 @@ int main()
     //tests vehicle functions
     vehicleTemp.setYearBuilt(tempYearBuilt);
     vehicleTemp.setManfactName(tempManuFactName);
-    vehicleTemp.displayVehicleInfo();
+    vehicleTemp.displayInfo();
     cout << endl;
     
     //gets car info
@@ -52,7 +52,7 @@ int main()
     carTemp.setYearBuilt(tempYearBuilt);
     carTemp.setManfactName(tempManuFactName);
     carTemp.setNumberOfDoors(tempDoorNumber);
-    carTemp.displayCarInfo();
+    carTemp.displayInfo();
     cout << endl;
     
     //gets truck info
@@ -71,7 +71,7 @@ int main()
     truckTemp.setYearBuilt(tempYearBuilt);
     truckTemp.setManfactName(tempManuFactName);
     truckTemp.setTowingCapacity(tempTowingCap);
-    truckTemp.displayTruckInfo();
+    truckTemp.displayInfo();
     cout << endl;
     
     return 0;

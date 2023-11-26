@@ -11,7 +11,7 @@ private:
 public:
     int getNumberOfDoors() const;
     void setNumberOfDoors(int);
-    void displayCarInfo();
+    void displayInfo();
     
     Car();
     ~Car();

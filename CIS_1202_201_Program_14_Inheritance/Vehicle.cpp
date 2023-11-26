@@ -17,7 +17,7 @@ int Vehicle::getYearBuilt() const
     return yearbuilt;
 }
 
-void Vehicle::displayVehicleInfo() const
+void Vehicle::displayInfo() const
 {
     cout << "Vehicle Information: " << endl;
     cout << "Manufacturer: " << ManufactName << endl;

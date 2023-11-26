@@ -41,8 +41,8 @@ Car::~Car()
     cout << "Car destructor is running" << endl;
 }
 
-void Car::displayCarInfo()
+void Car::displayInfo()
 {
-    displayVehicleInfo();       //calls vehicle display info
+    Vehicle::displayInfo();       //calls vehicle display info
     cout << "Doors: " << numberOfDoors << endl;
 }

@@ -11,7 +11,7 @@ private:
 public:
     double getTowingCapacity() const;
     void setTowingCapacity(double);
-    void displayTruckInfo();
+    void displayInfo();
     
     Truck();
     ~Truck();
